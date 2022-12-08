@@ -1,0 +1,80 @@
+.components-top-left-corner {
+  position: absolute;
+  top: calc(5vh + 1 * 100vh);
+  left: 0;
+  padding: 0.5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  background-color: #424344;
+  color: #ffffff;
+  font-size: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+}
+
+.components-bottom-right-corner {
+  position: absolute;
+  bottom: calc(5vh - 1 * 100vh);
+  right: 0;
+  padding: 0.5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  background-color: #95bae0;
+  color: #000000;
+  font-size: 1.5rem;
+  border-top-left-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+}
+
+.components-bottom-right-corner:hover {
+  padding-right: 3rem;
+  background-color: #267bd1;
+  color: #ffffff;
+}
+
+.components-preface {
+  max-width: 70vw;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+.components {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 80vw;
+  font-size: 1rem;
+  gap: 2rem;
+}
+
+.components-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.components-right {
+  flex: 1;
+}
+
+.components-content {
+  text-align: left;
+  font-size: 1rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  margin-left: 0.1rem;
+}
+
+.components-content code {
+  color: rgb(213, 43, 72);
+}
+
+.components-title {
+  text-align: left;
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}

@@ -1,0 +1,121 @@
+.usability-top-left-corner {
+  position: absolute;
+  top: calc(5vh + 2 * 100vh);
+  left: 0;
+  padding: 0.5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  background-color: #424344;
+  color: #ffffff;
+  font-size: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+}
+
+.usability-bottom-right-corner {
+  position: absolute;
+  bottom: calc(5vh - 2 * 100vh);
+  right: 0;
+  padding: 0.5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  background-color: #95bae0;
+  color: #000000;
+  font-size: 1.5rem;
+  border-top-left-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+}
+
+.usability-bottom-right-corner:hover {
+  padding-right: 3rem;
+  background-color: #267bd1;
+  color: #ffffff;
+}
+
+.usability-title {
+  text-align: left;
+  font-size: 1.6rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.usability-content-container {
+  width: 75vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.usability-content-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin: 0.75rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 0 0.5rem 0.1rem #000000;
+  position: relative;
+  height: 17vh;
+  width: 30vw;
+}
+
+.usability-content-item h4 {
+  text-align: left;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+.usability-content-item p {
+  text-align: left;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.easter-egg-overlap {
+  position: absolute;
+  height: inherit;
+  width: inherit;
+  padding: inherit;
+  padding-left: inherit;
+  padding-right: inherit;
+  border-radius: inherit;
+  background-color: #ffffff;
+  font-size: 1.3rem;
+  z-index: 100;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.easter-egg-overlap p {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.easter-egg-overlap:hover {
+  opacity: 0;
+}
+
+.easter-egg {
+  background-color: #c2ebeb;
+}
+
+.bottom-right {
+  cursor: pointer;
+  z-index: 99;
+}
