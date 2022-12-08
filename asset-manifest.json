@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/cs1300-portfolio/static/css/main.dfb6a6c0.css",
+    "main.js": "/cs1300-portfolio/static/js/main.67cbbbff.js",
+    "static/js/787.32fa7371.chunk.js": "/cs1300-portfolio/static/js/787.32fa7371.chunk.js",
+    "static/media/personas.png": "/cs1300-portfolio/static/media/personas.54e9d2d5078d473e0c2d.png",
+    "static/media/responsive.png": "/cs1300-portfolio/static/media/responsive.747ff9072338b9025577.png",
+    "static/media/development.png": "/cs1300-portfolio/static/media/development.361d27ed8e24324735b1.png",
+    "static/media/iterative.jpg": "/cs1300-portfolio/static/media/iterative.613b28226b36dab39a30.jpg",
+    "static/media/coldturkey888.jpeg": "/cs1300-portfolio/static/media/coldturkey888.ca2f695f4682ad799959.jpeg",
+    "index.html": "/cs1300-portfolio/index.html",
+    "main.dfb6a6c0.css.map": "/cs1300-portfolio/static/css/main.dfb6a6c0.css.map",
+    "main.67cbbbff.js.map": "/cs1300-portfolio/static/js/main.67cbbbff.js.map",
+    "787.32fa7371.chunk.js.map": "/cs1300-portfolio/static/js/787.32fa7371.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dfb6a6c0.css",
+    "static/js/main.67cbbbff.js"
+  ]
+}
